@@ -1,6 +1,6 @@
 pipeline:
   terraform:
-    image: "jmccann/drone-terraform:1"
+    image: jmccann/drone-terraform:1
     plan: false
     secrets:
       aws_access_key: AWS_ACCESS_KEY 
